@@ -1,0 +1,45 @@
+{
+  "name": "bsmart",
+  "version": "1.0.0",
+  "description": "🖥️ **Repositório do Backend** ⚙️    Este repositório contém **todo o código do backend** do projeto, desenvolvido com **Node.js + ______** e utilizando **_______** como banco de dados. 🚀",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules --respawn --transpile-only --env-file=.env ./src/app.ts",
+    "build": "tsc",
+    "start": "node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JS-FOUNDATION/BACKEND.git"
+  },
+  "keywords": [],
+  "author": "JS-FOUNDATION-ANGOLA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-FOUNDATION/BACKEND/issues"
+  },
+  "homepage": "https://github.com/JS-FOUNDATION/BACKEND#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/multer": "^1.4.12",
+    "@types/nodemailer": "^6.4.17",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-xss-sanitizer": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.0"
+  }
+}

@@ -1,0 +1,40 @@
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: lighter;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+i {
+    font-size: 15px;
+    margin-top: 5px;
+}

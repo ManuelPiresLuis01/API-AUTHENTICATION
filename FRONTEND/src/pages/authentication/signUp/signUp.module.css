@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+}
+
+label{
+    text-align: left;
+}
+
+.input{
+    margin-top: -3px;
+    font-size: 13px;
+    color: #535353;
+    background-color: #f3f2ef;
+    outline-color: #a9a9a9;
+    height: 35px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.input select{
+    width: 100%;
+    color: #8b8b8b;
+    outline: none;
+}

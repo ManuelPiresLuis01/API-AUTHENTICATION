@@ -1,0 +1,38 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul{
+    display: flex;
+    gap: 50px;
+}
+
+.container li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.container i{
+    color: #333;
+    font-size: 30px;
+}
+.container span{
+    color: #333;
+    font-size: 15px;
+}
+
+ .container div{
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #3333338c;
+ }

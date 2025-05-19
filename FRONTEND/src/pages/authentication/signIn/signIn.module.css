@@ -1,0 +1,176 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: fixed;
+    top: -30px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+}
+
+
+li:hover {
+    color: #414141;
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.imgLogin {
+    position: fixed;
+    left: -20px;
+    bottom: -50px;
+    width: 900px;
+}
+
+.containerFixed {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translateX(-10%);
+    transform: translateY(-50%);
+}
+
+.containerSignin {
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.containerSignin h1 {
+    font-size: 20px;
+}
+
+span,
+.forgot {
+    color: #007bff;
+}
+
+span:hover,
+.forgot:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+input {
+    font-size: 13px;
+    color: #535353;
+    background-color: #f3f2ef;
+    outline-color: #a9a9a9;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-size: 13px;
+    color: #999;
+}
+
+.google {
+    height: 35px;
+    background-color: #131313;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.google:hover {
+    height: 35px;
+    background-color: #131313e3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.google img {
+    width: 35px;
+}
+
+.newAccount {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1300px) {
+    .imgLogin {
+        width: 700px;
+    }
+
+    .containerSignin {
+        width: 350px;
+    }
+
+}
+
+.imgLogo {
+    display: none;
+}
+
+@media screen and (max-width:1100px) {
+    .imgLogin {
+        width: 100%;
+    }
+
+    .logo,
+    .imgLogin,
+    .containerFixed {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: auto;
+        right: auto;
+        transform: none;
+    }
+
+    .containerSignin {
+        width: 250px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 100vh;
+        gap: 20px;
+        overflow-y: scroll;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .imgLogo {
+        display: block;
+        width: 150px;
+        margin-bottom: -50px;
+    }
+
+}

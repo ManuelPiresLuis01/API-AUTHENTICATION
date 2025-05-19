@@ -1,0 +1,39 @@
+.suc {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.center div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.center button{
+    width: 150px;
+}
+
+.link {
+    margin: 20px auto;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
